@@ -20,7 +20,7 @@ async function Created(req ,res) {
 async function List(req, res) {
     try {
         const file = await File.find({});
-        return res.status(200).json({ file });
+        return res.status(200).json({ data: file });
     } catch(err) {
         return res.status(400).json({ error: err });
     }
