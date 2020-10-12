@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://www.flaticon.com/svg/static/icons/svg/1091/1091227.svg" >
+<img src="https://www.flaticon.com/svg/static/icons/svg/1091/1091227.svg"  width="200px">
 <br>
 <br>
 UPLOAD-IMAGES
