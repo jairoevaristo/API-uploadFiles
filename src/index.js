@@ -10,4 +10,6 @@ app.use(express.json());
 app.use(router);
 app.use('/files', express.static(path.resolve(__dirname, '..', 'uploads', 'files')));
 
-app.listen(3333, () => console.log('Server is running at http://localhost:3333'));
+const PORT = process.env.PORT || 3333;
+
+app.listen(PORT, () => console.log(`Server is running at http://localhost:${PORT}`));
