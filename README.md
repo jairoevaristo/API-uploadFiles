@@ -19,7 +19,7 @@ This app features all the latest tools and practices in development!
 
 - 💹 **Node Js** — A web framework for Node Js
 - :floppy_disk: **MongoDB** — database used to store file information
-<hr>
+
 
 ## Getting started
 
@@ -28,12 +28,14 @@ This app features all the latest tools and practices in development!
 2. Run `yarn` to install dependencies
 
 3. Type the command `yarn start` in the project directory to run the application
-<hr>
+<br>
+
 
 ## Warning
 
 :warning: It is necessary to have MongoDB installed on the machine for the file data to be saved, if you don't have it you can use the API but it will only be possible to save the files in the local folder.
-<hr>
+<br>
+
 
 ## License
 
